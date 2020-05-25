@@ -1,0 +1,101 @@
+.card>.about-move {
+    box-shadow: 7px 7px 25px rgba(0, 0, 0, .082);
+    border-radius: 10px;
+    height: 100%;
+    padding: 20px;
+    background: #fff;
+    overflow: hidden
+}
+
+.card {
+    height: 400px;
+    padding: 20px 20px 20px 20px
+}
+
+#services {
+    background: #fbfbfb
+}
+
+.services-details {
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    flex-direction: row;
+    transition: all 1s
+}
+
+.services-details:hover .single-services {
+    flex-direction: row-reverse;
+    transition: all 1s
+}
+
+.single-services {
+    overflow: hidden;
+    transition: all 1s
+}
+
+.single-services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column
+}
+
+.single-services>p {
+    margin: 0
+}
+
+.services-details:hover .single-services>p {
+    top: 27%;
+}
+
+.single-services>p {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    transition: all .5s
+}
+
+.single-services>h4 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 10px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin: 0;
+    padding: 0;
+    width: 80%;
+    transition: all .5s
+}
+
+.card-img {
+    height: 100px;
+    color: #3ec1d5;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    transition: all .5s
+}
+
+.services-details:hover .single-services>.card-img {
+    top: 23%;
+    left: 100%;
+    height: 20%;
+    transform: translate(-100%, -100%)
+}
+
+.services-details:hover .single-services>h4 {
+    top: 23%;
+    left: 0;
+    transform: translate(0, -100%);
+    text-align: start;
+        width: 70%;
+    font-size: 2.4rem
+}
