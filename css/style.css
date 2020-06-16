@@ -1359,7 +1359,7 @@ div#preloader {
 }
 
 .team-area {
-  background: rgba(0, 0, 0, 0) url("../img/team/equipo.png") no-repeat fixed center top / cover;
+  background: rgba(0, 0, 0, 0) url("../img/team/equipo.jpg") no-repeat fixed center top / cover;
   height: auto;
   width: 100%;
 }
@@ -2383,6 +2383,10 @@ vertical-align: middle;
 .card{
   height:300px;
    
+}
+.icono{
+ height: 50px;
+ width: 50px; 
 }
 /*----------------------------------------
  .End CSS
