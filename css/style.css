@@ -2448,11 +2448,18 @@ span.email-notes {
  .End CSS
 ----------------------------------------*/
 
-.d-flex {
-  display: flex;
-}
 
-.aviso-legal:hover{
+
+.aviso-legal:hover {
   text-decoration: underline;
   cursor: pointer;
+}
+
+@media (min-width: 992px){
+
+  .yokse {
+    position: relative;
+    top: 90px;
+  }
+
 }
